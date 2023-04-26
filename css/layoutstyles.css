@@ -1,0 +1,180 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../assets/img/background.jpg');
+    background-position: top right;
+    
+}
+
+h1 {
+    font-family:fantasy;
+    font-size: 40px;
+}
+
+.common {
+    /* background-color: #cccccc; */
+    border: 2px solid white;
+    position: absolute;
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px gray;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 54px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px gray;
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 54px;
+    padding-right: 5px;
+}
+
+.tableau {
+
+    top: 00px;
+    left: 114px;
+    right: 114px;
+    bottom: 54px;
+    padding-right: 5px;
+
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 54px;
+    border-left: solid 1px gray;
+    padding-left: 5px;
+}
+
+.rightvideo {
+    top: 114px;
+    right: 5px;
+    
+    bottom: 54px;
+    border-left: solid 1px gray;
+    padding-left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.homewords {
+    bottom: 70px;
+    left: 515px;
+    right: 515px;
+    height: 30px;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    
+    position:fixed;
+    
+}
+
+.homebutton {
+    bottom: 75px;
+    left: 515px;
+    right: 515px;
+    height: 30px;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    
+    position:fixed;
+    border: 2px;
+    border-style: dotted;
+    border-color: rgb(154, 226, 231);
+}
+
+.subheader {
+    float: right;
+    top: 20px;
+}
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: antiquewhite;
+}
+li {
+    font-size: 12px;
+    color: rgb(53, 53, 53);
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4 {color: rgb(41, 41, 41);}
+a {color: maroon;
+    text-decoration: none;}
+
+a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a:visited {
+    color: rgb(28, 161, 72);
+}
+
+.bold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.homebg {
+    background-image: url('../images/background.jpg');
+    background-position: top right;
+}
+
+/* We made 3 boxes to demonstrate the "box method" */
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+    /* You can just say "border here" */
+}
+
+.box2 {
+    padding: 5px;
+}
+
+.box3 {
+    margin: 50px;
+}
+
+.box {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
